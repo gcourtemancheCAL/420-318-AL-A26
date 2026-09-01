@@ -161,6 +161,7 @@ sudo -l   # première commande lors d'un test d'intrusion pour identifier les su
 
 [Réflexions sur accès root et sudo](https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file)
 
+**Voir les logs sudo :** ``journalctl /usr/bin/sudo``
 
 ## Capabilities
 
