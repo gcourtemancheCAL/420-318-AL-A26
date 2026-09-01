@@ -1,6 +1,10 @@
 
 # Exercices - Sudo et sudoers
 
+## Installation
+
+``apt install sudo``
+
 ## Important
 
 - Les modifications à `/etc/sudoers` doivent **toujours** être faites avec `visudo`, jamais directement avec un éditeur.
@@ -84,7 +88,7 @@ Objectif : permettre à `carl` de lancer le script en tant que `alice`, avec mot
 1. Éditez `/etc/sudoers` à nouveau et ajoutez la ligne :
 
 ```text
-carl ALL=(alice) /usr/local/bin/backup.sh
+carl ALL=(alice) /usr/local/bin/ex_sudo.sh
 ```
 
 3. Comment lire cette règle :
