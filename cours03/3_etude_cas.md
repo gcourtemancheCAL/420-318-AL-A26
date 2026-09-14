@@ -51,7 +51,7 @@ Un technicien laisse son portable ouvert sans surveillance avec un terminal ouve
 
 ## Situation 5 - Répertoire partagé
 
-Dans un laboratoire, tous les étudiants utilisent un dossier partagé pour déposer leurs travaux temporaires. Le dossier est disponible en lecture, écriture et exécution pour tout le monde. Aucun flag spécial n'y est assigné.
+Dans un laboratoire, tous les étudiants utilisent un dossier partagé pour déposer leurs travaux. Le dossier est disponible en lecture, écriture et exécution pour tout le monde. Aucun flag spécial n'y est assigné.
 
 Les étudiants peuvent y déposer leurs fichiers via `scp` en utilisant un compte personnel propre à chaque étudiant.
 
