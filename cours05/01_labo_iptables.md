@@ -31,7 +31,7 @@ Comme le fichier généré est un fichier texte, vous pouvez toujours simplement
 Vous pouvez toujours utiliser la commande ``iptables -L`` pour afficher vos règles.
 
 ## Préparation
-Pour cet laboratoire, nous allons avoir besoin d'un minimum de un ordinateur portable avec une machine virtuelle linux. La machine virtuelle linux doit être connecté au réseau en mode pont / bridged. 
+Pour ce laboratoire, nous allons avoir besoin d'un minimum de un ordinateur portable avec une machine virtuelle linux. La machine virtuelle linux doit être connecté au réseau en mode pont / bridged. 
 
 Utilisez une configuration DHCP.
 
