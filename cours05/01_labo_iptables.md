@@ -68,7 +68,7 @@ Ajoutez les règles iptables permettant le fonctionnement de ssh et sftp dans le
 
 -         Nous voulons autoriser les connexions ssh en provenance de n’importe quel hôte de notre réseau.
 -         Nous voulons pouvoir nous connecter à n’importe quel hôte dans notre réseau.
--         Nous voulons pouvoir nous connecter par ssh au 172.16.1.200.
+-         Nous voulons bloquer les connexions en provenance et en direction des autres réseaux.
 -         Nous voulons pouvoir nous connecter par ssh à nous même sur n’importe quelle interface.
 
 Les autres contextes doivent être bloqués par défaut.
