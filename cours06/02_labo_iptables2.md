@@ -1,6 +1,3 @@
-
-TODO Ajouter logging.
-
 # Iptables - 2
 
 ## chain
@@ -48,7 +45,6 @@ Va exécuter la commande « ``touch /home/user/a`` » à toutes les heures (la
 Si on veut en restreindre l’exécution à une fois par heure, il va falloir préciser la minute à laquelle on veut l’exécution. Il en va de même pour les jours du mois et les jours de la semaine. Cette règle s’exécuterait donc à 1h30 tous les jours.
 
 ``30 1 * * * touch /home/user/a``
-
 
 
 ## Étape 1 - Réécriture des règles sous forme de chaines
