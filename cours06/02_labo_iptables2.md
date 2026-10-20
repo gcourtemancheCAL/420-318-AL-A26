@@ -55,13 +55,17 @@ Réécrivez les règles du laboratoire précédent en encapsulant chaque étape 
 
 Pour se pratiquer, nous allons commencer en rédigeant un script trivial qui s'exécute régulièrement. 
 
-Le script va devoir ajouter, à la fin du fichier ``cron.log`` se trouvant dans le home de l'utilisateur qui lance le script, une ligne contenant le nom d'utilisateur, la date et l'heure (hh:mm:ss).
+Créez un script ``timestamp.sh`` qui va ajouter à la fin du fichier ``cron.log`` se trouvant dans votre home une ligne contenant le nom d'utilisateur ainsi que la date et l'heure (hh:mm:ss) à laquelle le script a été invoquée.
 
-Appelez le script ``timestamp.sh`` et placez le dans votre home. Ajoutez une entrée dans votre ``crontab`` exécutant ce script aux 5 secondes.
+Testez votre script.
+
+Ajoutez une entrée dans votre ``crontab`` (à l'aide de la commande `crontab -e`) exécutant ce script à chaque minute.
+
+La commande `tail -f cron.log` va vous permettre de voir le contenu du fichier au fur et à mesure qu'il se fait modifier.  Vous pouvez utiliser cette commande pour valider que cron exécute `timestamp.sh` correctement.
 
 Une fois le bon fonctionnement de la chose validée, modifier le script afin de qu'il s'exécute aux 30 minutes.
 
-## Étape 2 – Ban automatique
+## Étape 3 – Ban automatique
 
 Nous allons vouloir créer une tâche qui bannit temporairement les individus ayant échouer à se connecter via ``ssh`` trop souvent dans un court laps de temps.
 
