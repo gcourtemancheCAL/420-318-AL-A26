@@ -1,9 +1,5 @@
 # Exercices ACL
 
-## Installation
-
-``apt install acl``
-
 ## Important
 
 - Vérifiez que les commandes `getfacl` et `setfacl` sont disponibles sur votre système. Si absent, vous aurez besoin de les installer. Ils sont normalement dans le package `acl`.
