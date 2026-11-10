@@ -59,3 +59,11 @@ journalctl -u apache2
 # peut être combiné à grep
 journalctl -u ssh | egrep -i "failed|invalid|authentication failure"
 ```
+
+### Autres sources de logs
+
+Bien que le standard soit d'utiliser systemd pour la gestion des journaux, certains services vont conserver leurs journaux dans des fichiers spécifiques.
+
+Le répertoire /var/log est un bon point de départ à investiguer.
+
+Par exemple, le service apache2 va conserver les logs d'accès et d'erreurs dans /var/log/apache2.
