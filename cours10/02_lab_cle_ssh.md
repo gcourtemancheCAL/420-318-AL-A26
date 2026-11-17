@@ -48,7 +48,7 @@ Cette commande crée deux fichiers :
 
 ### Étape 2 - Copier la clé publique sur le serveur
 
-Le serveur doit connaître la clé publique pour autoriser la connexion. Transférez la clé publique générée sur le client vers le répertoire `~/.ssh/authorized_keys`. Utilisez le home de l'utilisateur vers lequel vous allez vouloir vous connecter.
+Le serveur doit connaître la clé publique pour autoriser la connexion. Transférez la clé publique générée sur le client vers le répertoire `~/.ssh/` dans le fichier `authorized_keys`. Utilisez le home de l'utilisateur vers lequel vous allez vouloir vous connecter.
 
 >[!warning] L'authentification par clé ssh est faite sur une base utilisateur. C'est à dire que - sur un serveur donné - si l'utilisateur X1 dispose de la clé publique de C1 et que l'utilisateur X2 n'en dispose pas on peut s'attendre au résultat suivant : 
 	-C1 peut se connecter avec sa clé ssh en tant qu'utilisateur X1 sur le serveur.
